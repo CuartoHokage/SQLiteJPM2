@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
         if(registrosEliminados > 0 ){
             Toast.makeText(MainActivity.this,"Registro eliminado correctamente",Toast.LENGTH_SHORT).show();
         }else{
-            Toast.makeText(MainActivity.this,"ERROR: Registro no eliminado",Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"ERROR: Registro no eliminado lo sentimos",Toast.LENGTH_SHORT).show();
         }
     }
 }
